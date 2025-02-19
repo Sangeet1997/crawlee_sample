@@ -1,5 +1,6 @@
 {
   "name": "crawlee_sample",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "crawler.js",
