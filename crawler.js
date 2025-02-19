@@ -15,12 +15,12 @@ async function ensureBrowser() {
 
 // Configuration object for the crawler
 const config = {
-    maxRequestsPerCrawl: 50,
+    maxRequestsPerCrawl: 10,
     maxConcurrency: 10,
     // Add browser launch options
     launchContext: {
         launchOptions: {
-            headless: true,
+            headless: false,
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         },
     },
