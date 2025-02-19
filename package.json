@@ -1,0 +1,16 @@
+{
+  "name": "crawlee_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crawlee": "^3.12.2",
+    "playwright": "^1.50.1"
+  }
+}
